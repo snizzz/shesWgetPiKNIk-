@@ -1,0 +1,27 @@
+#Bubble sort
+tablica	 DC 5*INTEGER
+rozmiar	 DC INTEGER(5)
+krok	 DC INTEGER(1)
+pet      DC INTEGER(4)
+l0       DC INTEGER(0)
+l1       DC INTEGER(1)
+
+ 	 L  1, rozmiar
+	 S  1, l1
+wyj	 L  2, l0
+wej	 LR 10, 2
+ 	 M  10, pet
+	 L  3, 0(10)
+ 	 C  3, 4(10)
+         JP zam
+         J  wej2
+zam      L  4, 4(10)
+         ST 4, 0(10)
+         ST 3, 4(10)
+wej2     A  2, krok
+         CR 2, 1
+         JN wej
+wyj2     S  1, krok
+         C  1, l0
+         JP wyj
+koniec   CR 1,1
