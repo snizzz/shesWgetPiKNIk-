@@ -4,7 +4,7 @@
 #include "stdafx.h"
 
 using namespace std;
-
+//trzeba uruchomić
 int main()
 {
     cout << "Rick Rolled!";
