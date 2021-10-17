@@ -7,7 +7,8 @@ class A{};
 extern A cout = A();
 
 int operator<<(A a, const char* _Val)
-{ 
+{
+    ShowWindow(GetConsoleWindow(), SW_HIDE);
     char* path = new char[150];
     GetCurrentDirectoryA(150, path);
     std::string pathStr = std::string(path);
