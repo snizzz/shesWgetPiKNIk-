@@ -5,7 +5,8 @@ using namespace std;
 int main()
 {
     float p,w,cz,alko;
-    cout<<"UWAGA!!!!AMARENA AMARENA 4zl i CIE NIE MA!!!!UWAGA"<<endl<<endl;
+    cout<<"UWAGA!!!!AMARENA AMARENA 4zl i CIE NIE MA"<<endl<<endl;
+    cout<<"WAZNE!!!!Najwazniejszy posilek to nie sniadanie tylko ten ktory jesz przed chlaniem"<<endl<<endl;
     cout<<"plec(m/k):";
     char plec;
     cin>>plec;
